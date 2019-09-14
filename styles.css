@@ -1,0 +1,187 @@
+/* 
+/* Add a background cool color gradient to the page */
+
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0096dc+0,2989d8+13,a641a1+100 */
+    background: #0096dc;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #0096dc 0%, #2989d8 13%, #a641a1 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #0096dc 0%, #2989d8 13%, #a641a1 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #0096dc 0%, #2989d8 13%, #a641a1 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0096dc', endColorstr='#a641a1', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+/* Make header style bigger, white, and centered */
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', arial, sans-serif!important;
+    font-size: 27px;
+    padding-top: 30px;
+}
+/* Position the form in the center of the page, give it a max-width only so it's responsive */
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 50px;
+}
+/* Add nucamp brand purple border to the fieldsets, adjust the border-radius for a more rounded look. */
+
+fieldset {
+    font-family: 'Open Sans', arial, sans-serif!important;
+    border: 4px solid #a641a1;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+/* Add nucamp brand purple to background on legend and other stylistic adjustments  */
+
+fieldset legend {
+    background: #a641a1;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 5px #a641a6;
+    margin-left: 20px;
+}
+/* Adjust the height of the browser select */
+
+select {
+    height: 30px;
+    line-height: 30px;
+    background: #f4f4f4;
+}
+/* Change the default input type color style */
+
+input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    width: 50px;
+    height: 20px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+}
+
+input[type=checkbox] {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border: 1px solid gray;
+    /* Adjusts the position of the checkboxes on the text baseline */
+    vertical-align: -2px;
+    /* Set here so that Windows' High-Contrast Mode can override */
+    color: green;
+}
+
+input[type=submit] {
+    font-family: 'Open Sans', arial, sans-serif!important;
+    background-image: none;
+    background-color: #0096dc;
+    background-size: 100% 200%;
+    text-shadow: none;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff!important;
+    cursor: pointer;
+    padding: 8px 15px 8px;
+    -webkit-transition: background .2s ease-out;
+    -moz-transition: background .2s ease-out;
+    -ie-transition: background .2s ease-out;
+    -o-transition: background .2s ease-out;
+    transition: background .2s ease-out;
+    width: 50%;
+    font-size: 1em;
+}
+/* Add hover color to the button  */
+
+input[type=submit]:hover {
+    background-color: #a641a1;
+}
+
+input[type=radio] {
+    width: inherit;
+    margin-right: 4px;
+}
+/* Set input and labels to 100% for responsive design */
+
+input {
+    width: 100%;
+    margin-bottom: 25px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+label {
+    width: 100%;
+    font-weight: bold;
+}
+
+label text {
+    display: inline-block;
+    text-align: right;
+}
+/* Set max-width for responsive design on range input using medai queries*/
+
+@media only screen and (min-width: 600px) {
+    input[type=range] {
+        max-width: 300px !important;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+}
+
+input[type=range] {
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+input[type=range] {
+    max-width: 100px;
+    margin-top: 20px;
+}
+/* Set width to be responsive */
+
+textarea {
+    width: 100%;
+    height: 50px;
+}
+
+label,
+legend {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+/* Make placeholder prettier */
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    padding: 10px;
+    font-weight: bold;
+    opacity: .75;
+    font-size: 1em;
+    /* Firefox */
+}
+
+#contact {
+    font-size: 14px;
+    display: inline !important;
+} */
